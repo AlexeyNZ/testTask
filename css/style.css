@@ -215,7 +215,7 @@ nav {
 /* SECTIONS WITH MONITORS */
 
 .bannerFourth {
-    background: dimgrey;
+    background: #222222;
     color: white;
     height: 100vh;
 }
@@ -223,12 +223,37 @@ nav {
 .bannerWrapper {
     max-width: 975px;
     margin: 0px auto;
+    height: 100vh;
+    text-align: center;
 }
 
-.bannerFourth h2 {
-
+.bannerWrapper h2 {
+    padding: 45px 0;
+    text-transform: uppercase;
+    font-size: 25pt;
 }
 
-.leftside{
+.bannerWrapper img {
+    height: 70%;
+}
+
+.leftSide {
     float: left;
+    width: 40%;
+}
+
+.leftSide button {
+    margin-top: 25px;
+    background: #003d6a;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.leftSide button:hover {
+    background: #02508a;
+    transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
 }
