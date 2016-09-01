@@ -14,33 +14,25 @@ ul {
     list-style: none;
 }
 
-.clear:after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-
-.clear {
-    zoom:1;
-}
-
-header, .bannerWrapper, .bannerWrapper2 {
+header, .bannerWrapper {
     max-width: 975px;
     margin: 0px auto;
+    
+}
+
+.bannerWrapper {
+    height: 100vh;
 }
 
 /* HEADER */
 
 header  {
-    
     margin: 40px auto;
-    position: relative;
-    
+    position: relative;    
 }
 
 header img {
-    width: 275px;
-    
+    width: 275px;    
 }
 
 nav {
@@ -53,7 +45,6 @@ nav {
 .mainNav {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 .mainNav a {
@@ -76,20 +67,17 @@ nav {
 /* HEADER END*/
 
 
-/*BANNER*/
+/*BANNERS*/
 
 .bannerFirst {
     background: url(../links/banner_1.png) no-repeat;
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-
 }
 
 .bannerSecond {
     background: url(../links/banner_2.png) no-repeat;
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -100,7 +88,7 @@ nav {
     height: 100vh;
     width: 70%;
     background: white;
-    opacity: 0.7;
+    opacity: 0.8;
     display: table;
 
 }
@@ -113,12 +101,22 @@ nav {
 }
 
 .subTitle {
-    font-size: 25pt;
+    font-size: 30px;
 }
 
 .title {
-    font-size: 40pt;
+    padding-top: 10px;
+    font-size: 50px;
     text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.title span {
+    letter-spacing: 3px;
+}
+
+ .bannerSecond .title {
+    text-transform: none;
 }
 
 /*BANNER END*/
@@ -216,41 +214,6 @@ nav {
 
 /*END FOUR SQUARES*/
 
-/*BANNER THIRD*/
-
-.bannerThird {
-    background: white;
-}
-
-.bannerWrapper {
-    height: 100vh;
-    
-}
-
-.icons {
-    width: 65%;
-}
-
-.icons li {
-    padding: 30px 0px;
-    display: table;
-}
-
-li img {
-    height: 60px;   
-    margin-right: 20px;
-}
-
-.icons li p {
-    display: table-cell;
-    vertical-align: middle;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-
-/*END BANNER THIRD*/
-
 /* SECTIONS WITH MONITORS */
 
 .bannerFourth {
@@ -258,13 +221,6 @@ li img {
     color: white;
     text-align: center;
     position: relative;
-}
-
-.bannerWrapper {
-    max-width: 975px;
-    margin: 0px auto;
-    height: 100vh;
-    
 }
 
 .bannerWrapper h2 {
@@ -295,17 +251,17 @@ li img {
     display: table;
 }
 
-.leftSideText {
+.Text {
    display: table-cell;
    vertical-align: middle;
 }
 
-.leftSideText h3 {
+.Text h3 {
     font-size: 20pt;
     text-transform: uppercase;
 }
 
-.leftSideText p {
+.Text p {
     margin-top: 20px;
     line-height: 1.6;
 }
@@ -353,20 +309,6 @@ li img {
     display: table;
 }
 
-.rightSideText {
-   display: table-cell;
-   vertical-align: middle;
-}
-
-.rightSideText h3 {
-    font-size: 20pt;
-    text-transform: uppercase;
-}
-
-.rightSideText p {
-    margin-top: 20px;
-    line-height: 1.6;
-}
 
 .rightSide button {
     margin-top: 25px;
