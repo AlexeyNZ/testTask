@@ -1,13 +1,10 @@
   $(document).ready(function(){
-        $(".bannerFirst").click(function() {
+        $("section").each(function(index){
+        $(this).on("click", function(){
         $('html,body').animate({
-        scrollTop: $(".fourSquares").offset().top},
-        'slow');
+                scrollTop: $(this).next().offset().top},
+                'slow');
         });
-        $(".fourSquares").click(function() {
-        $('html,body').animate({
-        scrollTop: $(".bannerSecond").offset().top},
-        'slow');
         });
         $(".btnSquare").click(function(event){
         event.stopPropagation();

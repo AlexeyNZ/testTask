@@ -222,20 +222,28 @@ nav {
     background: white;
 }
 
-.bannerWrapper2 {
+.bannerWrapper {
     height: 100vh;
-    padding: 50px 0;
+    
 }
 
+.icons {
+    width: 65%;
+}
+
+.icons li {
+    padding: 30px 0px;
+    display: table;
+}
 
 li img {
-    height: 60px;
-    vertical-align: middle;
+    height: 60px;   
+    margin-right: 20px;
 }
 
-li p {
-    display: inline-block;
-    margin-left: 20px;
+.icons li p {
+    display: table-cell;
+    vertical-align: middle;
     font-weight: 700;
     font-size: 18px;
 }
