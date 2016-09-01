@@ -219,18 +219,25 @@ nav {
     color: white;
     height: 100vh;
     text-align: center;
+    position: relative;
 }
 
 .bannerWrapper {
     max-width: 975px;
     margin: 0px auto;
     height: 100vh;
+    
 }
 
 .bannerWrapper h2 {
-    padding: 45px 0;
     text-transform: uppercase;
     font-size: 25pt;
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    -webkit-transform: translate(0%,-40%);
+    -ms-transform: translate(0%,-40%);
+    transform: translate(0%,-40%);
 }
 
 .monitor {
@@ -241,6 +248,7 @@ nav {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 80% 50%;
+
 }
 
 .leftSide {
