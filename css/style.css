@@ -235,20 +235,38 @@ nav {
 
 .bannerWrapper img {
     height: 70%;
+    margin-left: 50px;
 }
 
 .leftSide {
     float: left;
     width: 40%;
+    height: 70%;
+    display: table;
+}
+
+.leftSideText {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.leftSideText h3 {
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+.leftSideText p {
+    margin-top: 20px;
 }
 
 .leftSide button {
     margin-top: 25px;
+    width: 200px;
     background: #003d6a;
     color: white;
     padding: 15px 40px 15px 40px;
     font-family: 'PT Sans', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .leftSide button:hover {
