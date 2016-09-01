@@ -1,5 +1,5 @@
 body {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: black;
 }
 
@@ -218,13 +218,13 @@ nav {
     background: #222222;
     color: white;
     height: 100vh;
+    text-align: center;
 }
 
 .bannerWrapper {
     max-width: 975px;
     margin: 0px auto;
     height: 100vh;
-    text-align: center;
 }
 
 .bannerWrapper h2 {
@@ -233,15 +233,20 @@ nav {
     font-size: 25pt;
 }
 
-.bannerWrapper img {
-    height: 70%;
-    margin-left: 50px;
+.monitor {
+    margin-left: 50%;
+    height: inherit;
+    width: 450px;
+    background: url(../links/m1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80% 50%;
 }
 
 .leftSide {
     float: left;
     width: 40%;
-    height: 70%;
+    height: inherit;
     display: table;
 }
 
