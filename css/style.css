@@ -10,6 +10,10 @@ button {
     cursor: pointer;
 }
 
+ul {
+    list-style: none;
+}
+
 .clear:after {
     content: " ";
     display: table;
@@ -20,7 +24,7 @@ button {
     zoom:1;
 }
 
-header, .bannerWrapper {
+header, .bannerWrapper, .bannerWrapper2 {
     max-width: 975px;
     margin: 0px auto;
 }
@@ -210,14 +214,40 @@ nav {
     background-position: 50% 50%;
 }
 
-/*FOUR SQUARES END*/
+/*END FOUR SQUARES*/
+
+/*BANNER THIRD*/
+
+.bannerThird {
+    background: white;
+}
+
+.bannerWrapper2 {
+    height: 100vh;
+    padding: 50px 0;
+}
+
+
+li img {
+    height: 60px;
+    vertical-align: middle;
+}
+
+li p {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/*END BANNER THIRD*/
 
 /* SECTIONS WITH MONITORS */
 
 .bannerFourth {
     background: #222222;
     color: white;
-    height: 100vh;
     text-align: center;
     position: relative;
 }
@@ -240,7 +270,7 @@ nav {
     transform: translate(0%,-40%);
 }
 
-.monitor {
+.monitorRight {
     margin-left: 50%;
     height: inherit;
     width: 450px;
@@ -248,7 +278,6 @@ nav {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 80% 50%;
-
 }
 
 .leftSide {
@@ -270,6 +299,7 @@ nav {
 
 .leftSideText p {
     margin-top: 20px;
+    line-height: 1.6;
 }
 
 .leftSide button {
@@ -287,4 +317,62 @@ nav {
     transition: background .25s ease-in-out;
    -moz-transition: background .25s ease-in-out;
    -webkit-transition: background .25s ease-in-out;
+}
+
+/* FLIP MONITOR BANNER */
+
+.bannerFifth {
+    background: white;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.monitorLeft {
+    margin-right: 50%;
+    height: inherit;
+    width: 450px;
+    background: url(../links/m2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80% 50%;
+}
+
+.rightSide {
+    float: right;
+    width: 40%;
+    height: inherit;
+    display: table;
+}
+
+.rightSideText {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.rightSideText h3 {
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+.rightSideText p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.rightSide button {
+    margin-top: 25px;
+    width: 200px;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+}
+
+.rightSide button:hover {
+    background: black;
+    color: white;
+    transition: background .25s ease-in-out, color .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out, color .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out, color .25s ease-in-out;
 }
