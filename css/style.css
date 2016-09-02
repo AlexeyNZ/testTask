@@ -74,14 +74,14 @@ nav {
 /*BANNERS*/
 
 .bannerFirst {
-    background: url(../links/banner_1.png) no-repeat;
+    background: url(../links/banner_1.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 }
 
 .bannerSecond {
-    background: url(../links/banner_2.png) no-repeat;
+    background: url(../links/banner_2.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
